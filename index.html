@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Test</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" >
+    <link rel="stylesheet" href="myStyles.css">
+    <script src="bootstrap/js/bootstrap.js" ></script>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="container-fluid bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+                <div class="display-4 text-md-start text-center color-secondary" >
+                    <strong>Hello Everyone</strong>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="display-4 text-md-end text-center color-main groovy-text" >
+                    <strong>Welcome to bootstrap 5</strong>
+                </div>
+            </div>
+        </div>
+        <div class="row py-4">
+            <div class="col">
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        
+                      <a class="navbar-brand color-secondary" href="/">Bootstrap Test</a>
+
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active color-secondary" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link color-secondary" href="#">About</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle color-secondary" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Menu
+                            </a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item color-secondary bg-active-main bg-focus-main" href="#">Action</a></li>
+                              <li><a class="dropdown-item color-secondary bg-active-main bg-focus-main" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider text-white"></li>
+                              <li><a class="dropdown-item color-secondary bg-active-main bg-focus-main" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-dark bg-main" type="submit">Search</button>
+                        </form>
+                      </div>
+                      
+                    </div>
+                </nav>
+            </div>
+        </div>
+        </div>
+    </header>
+    <main>
+
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 py-4 d-flex align-items-center">
+              <div class="display-5 text-center text-md-start">Design Responsive Websites Easily</div>
+            </div>
+            <div class="col  py-4">
+              <img class="img-fluid big-image" src="images/svg/pic1-c.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fulid bg-dark text-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 py-4 d-flex align-items-center">
+              <div class="display-5 text-center text-md-start color-secondary">Take Advices From Other Proffisonal Web Designers</div>
+            </div>
+            <div class="col py-4">
+              <img src="images/svg/pic2-c.svg" class="img-fluid big-image">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+    <footer>
+      
+    </footer>
+</body>
+</html>
